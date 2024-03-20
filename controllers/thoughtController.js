@@ -1,6 +1,6 @@
 // ObjectId() method for converting thoughtId string into an ObjectId for querying database
 const { ObjectId } = require('mongoose').Types;
-const { Thought, User } = require('../models');
+const { Thought, User } = require('../routes');
 
 // TODO: Create an aggregate function to get the number of thoughts overall
 
